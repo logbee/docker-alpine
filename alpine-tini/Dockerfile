@@ -4,5 +4,3 @@ MAINTAINER  Max Landthaler <dev@mlandth.de>
 
 RUN apk add --no-cache tini
 RUN apk add dpkg
-
-ENTRYPOINT ["/sbin/tini", "--"]
